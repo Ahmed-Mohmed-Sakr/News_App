@@ -16,7 +16,7 @@
 ![register page](https://github.com/Ahmed-Mohmed-Sakr/News_App/blob/main/app-screens/registeration%20page.PNG)
 
 ### main page 
->here it's card view to most famous news papers
+>here it's card view to the most famous news papers
 
 ![main page1](https://github.com/Ahmed-Mohmed-Sakr/News_App/blob/main/app-screens/Main%20Page.PNG)
 
