@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView_for_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/news_page_color1"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/new_york_times_logo" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="The New York Times"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/The_New_York_Times_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0097CE">
+
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/news_page_color2"
+                    android:src="@drawable/cityam" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="The cityam"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/cityam_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView3"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="150dp"
+                    android:layout_height="160dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/white"
+                    android:src="@drawable/guardian" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="The Guardian"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/guardian_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView5"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#04777A">
+
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/news_page_color2"
+                    android:src="@drawable/telegraph" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="The telegraph"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/telegraph_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView6"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFEBB">
+
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/news_page_color2"
+                    android:src="@drawable/smh" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="The Sydney Morning Herald"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/smh_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView8"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#5B92E5">
+
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/un" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="United Nations"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/United_Nations_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView9"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#4C338D">
+
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="250dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/news_page_color2"
+                    android:src="@drawable/bbc_logo" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="BBC NEWS"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/bbc_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView10"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#110710">
+
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="200dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/esnews" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="THE ESNEWS"
+                    android:textColor="#A202E0"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/es_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView11"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textColor="#A202E0"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/latimes" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="Los Angeles Times"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/latimes_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView7"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1D1059">
+
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="310dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@color/news_page_color2"
+                    android:src="@drawable/sun" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="THE SUN NEWS"
+                    android:textColor="#FFB228"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/sun_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView12"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textColor="#FFB228"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DE565A">
+
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="315dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginBottom="1dp"
+                    android:src="@drawable/dm" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="THE DMN"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/dm_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView13"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="21dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="320dp"
+                    android:layout_height="180dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/news_page_color2"
+                    android:src="@drawable/nyp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"
+                    android:fontFamily="serif"
+                    android:padding="20dp"
+                    android:text="NEW YORK TIME"
+                    android:textColor="#6A0505"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/nyp_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView14"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#00000000"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:text="view site"
+                    android:textColor="#6A0505"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
